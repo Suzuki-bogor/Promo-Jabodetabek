@@ -1,2 +1,297 @@
-# Promo-Jabodetabek
-Suzuki Duta Cendana Adimandiri Bogor - Team Reforma
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki Duta Cendana adimandiri - Promo & Harga Terbaik</title>
+    <!-- Tailwind CSS untuk Desain Modern & Simpel -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome untuk Ikon Sosmed & WhatsApp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Smooth scrolling saat navigasi diklik */
+        html { scroll-behavior: smooth; }
+        
+        /* Warna Biru Khas Suzuki */
+        .text-suzuki-blue { color: #002C5F; }
+        .bg-suzuki-blue { background-color: #002C5F; }
+
+        /* Custom scrollbar untuk slider testimoni agar terlihat bersih */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- 1. HEADER & NAVIGATION -->
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <!-- Logo & Branding -->
+        <div class="flex items-center gap-4">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Suzuki_Motor_Corporation_logo.svg/3840px-Suzuki_Motor_Corporation_logo.svg.png" width="80" alt="Suzuki Logo">
+            <div class="border-l-2 border-gray-300 pl-2">
+                <span class="text-suzuki-blue font-black text-xl block">SUZUKI</span>
+                <span class="text-xs font-bold uppercase text-slate-600">Duta Cendana Adimandiri</span>
+            </div>
+        </div>
+        
+        <!-- Navigasi -->
+        <nav class="hidden md:flex gap-6 font-medium text-sm text-gray-600">
+            <a href="#sales" class="hover:text-suzuki-blue transition">Hubungi Sales</a>
+            <a href="#katalog" class="hover:text-suzuki-blue transition">Katalog</a>
+            <a href="#testimoni" class="hover:text-suzuki-blue transition">Testimoni</a>
+            <a href="#lokasi" class="hover:text-suzuki-blue transition">Lokasi</a>
+        </nav>
+        
+        <!-- Tombol CTA -->
+        <a href="https://wa.me/628587888289?text=Halo%20Suzuki%20Bogor,%20saya%20mau%20tanya%20promo" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-2 transition shadow-md">
+            <i class="fab fa-whatsapp text-lg"></i> Hubungi Kami Suzuki Bogor
+        </a>
+    </div>
+</header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="relative bg-slate-900 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-50 blur-sm scale-105" style="background-image: url('https://suzukicdn.com//themes/default2019/img/accessories/xl7/hero-banner-desktop.webp');"></div>
+        <div class="relative container mx-auto px-4 py-24 md:py-32 text-center md:text-left max-w-4xl z-10">
+            <span class="bg-red-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded text-white inline-block mb-4">Promo Spesial Bulan Ini</span>
+            <h1 class="text-4xl md:text-6xl font-black mb-4 leading-tight">PROMO TERBAIK<br><span class="text-red-500">SUZUKI BOGOR REFORMA</span></h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-8 max-w-xl drop-shadow-md">Dapatkan kemudahan proses kredit dengan DP Ringan dan Angsuran Ringan Mulai Rp 2,5 Jutaan! Hubungi sales suzuki resmi sekarang sebelum promo berakhir.</p>
+            <a href="https://wa.me/628587888289?text=Halo%20saya%20tertarik%20dengan%20Promo%20Suzuki%20Bogor" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-bold text-lg inline-block transition transform hover:-translate-y-0.5 shadow-lg">
+                LIHAT PROMO HARI INI
+            </a>
+        </div>
+    </section>
+
+    <!-- REVISI 1: SECTION PROFILE SALES SEKARANG DI ATAS KATALOG -->
+    <section id="sales" class="bg-slate-100 py-16">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center gap-8">
+                <!-- Foto Sales -->
+                <div class="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden bg-gray-200 border-4 border-suzuki-blue/20 shrink-0">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmaKpTHbkHJTALrUqp58fhaojT5VPAzPcgbhQXjpEG5Cy2ZsSi5odeB-M-iXTAW991ZbAHCYWsLYVPqOMJpacK2W7o_AxThbqB-Wuut0COzVamL9TOIO8kAkQYDoU5QecmlcAR1DA=w243-h203-n-k-no-nu" alt="Foto Sales Suzuki" class="w-full h-full object-cover">
+                </div>
+                <!-- Informasi Sales -->
+                <div class="text-center md:text-left flex-1">
+                    <span class="text-xs font-bold text-red-600 tracking-widest uppercase">Sales Excecutive</span>
+                    <h2 class="text-3xl font-black text-slate-900 mt-1 mb-2">Reforma Team Suzuki Bogor</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">Perkenalkan, Kami Team Reforma, sales marketing resmi penjualan mobil Suzuki PT.Duta Cendana Adimandiri yang siap membantu Anda mendapatkan mobil Suzuki terbaik dengan harga kompetitif di wilayah Jabodetabek dan sekitarnya.</p>
+                    
+                    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                        <a href="https://wa.me/628587888289?text=Halo%20Suzuki%20Reforma,%20bisa%20minta%20info%20diskon%20terbaik?" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 rounded-xl inline-flex items-center gap-2 shadow-md transition">
+                            <i class="fab fa-whatsapp text-xl"></i> Konsultasi via WhatsApp
+                        </a>
+                        <a href="tel:+628587888289" class="bg-slate-800 hover:bg-slate-900 text-white font-bold px-6 py-3 rounded-xl inline-flex items-center gap-2 shadow-md transition">
+                            <i class="fas fa-phone-alt"></i> Hubungi Langsung
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. KATALOG MOBIL -->
+    <section id="katalog" class="container mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-2">MOBIL SUZUKI TERBARU</h2>
+            <div class="h-1 w-20 bg-suzuki-blue mx-auto rounded"></div>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card Mobil 1 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTsnaopxsvyCKT3IrbvIt_bu-TQML0QFqgmR8z9T6ncQ&s=10" alt="Suzuki XL7" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki XL7</h3>
+                    <p class="text-sm text-gray-500 mb-4">Mulai dari <span class="text-red-600 font-bold text-lg">Rp 250 Jutaan</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20XL7?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+                    </a>
+                </div>
+            </div>
+            <!-- Card Mobil 2 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6E_rVK7cNKdBQ37EyAZFXHiH4StJq3ibQNWEgx_VbA&s=10" alt="Suzuki Fronx" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki Fronx</h3>
+                    <p class="text-sm text-gray-500 mb-4">Mulai dari <span class="text-red-600 font-bold text-lg">DP 20 Jutaan</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20Fronx?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+                    </a>
+                </div>
+            </div>
+            <!-- Card Mobil 3 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSEyC95zkw5TKBGaUusAROeuAsupd3uVP77Ogmvc9_3A&s=10" alt="Suzuki Spresso" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki Spresso</h3>
+                    <p class="text-sm text-gray-500 mb-4">Mulai dari <span class="text-red-600 font-bold text-lg">DP 10 jutaan</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20Spresso?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+                    </a>
+                </div>
+            </div>
+            <!-- Card Mobil 4 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpBFd21dIhLXW10mtRmWdkwdaraYjbGwfDNVb4ffD-qg&s=10" alt="Suzuki Jimny" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki Jimny</h3>
+                    <p class="text-sm text-gray-500 mb-4">Dapatkan <span class="text-red-600 font-bold text-lg">Penawaran Terbaik</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20Jimny?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+                   </a>
+                </div>
+            </div>
+            <!-- Card Mobil 5 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://cms.suzukihyperlocal.com/read-file?path=images/car-color/51/PEARL_SNOW_WHITE-CRUISE.webp" alt="Suzuki Ertiga" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki Ertiga</h3>
+                    <p class="text-sm text-gray-500 mb-4">Dp Mulai <span class="text-red-600 font-bold text-lg">Rp 15 Jutaan</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20Ertiga?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+                   </a>
+                </div>
+            </div>
+            <!-- Card Mobil 6 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBsFEm79v9GA1auXUJ8x6x73s_zsV7c8BpLhOflO0fg&s=10" alt="Suzuki Grand Vitara" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki Grand Vitara</h3>
+                    <p class="text-sm text-gray-500 mb-4">Dp Mulai <span class="text-red-600 font-bold text-lg">Rp 25 Jutaan</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20Grand Vitara?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+                  </a>
+                </div>
+            </div>
+            <!-- Card Mobil 7 -->
+            <div class="bg-white rounded-2xl overflow-hidden shadow-md border border-gray-100 transform transition duration-300 hover:-translate-y-2 hover:shadow-2xl">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq7LjNdP6h_umrqE9r0ZVBz-miJLa1Oq6IZ3JEROTmdw&s=10" alt="Suzuki New Carry Pick Up" class="w-full h-48 object-cover">
+                <div class="p-6 text-center">
+                    <h3 class="text-xl font-bold mb-1">Suzuki New Carry Pick Up</h3>
+                    <p class="text-sm text-gray-500 mb-4">Dp Mulai <span class="text-red-600 font-bold text-lg">Rp 12 Jutaan</span></p>
+                    <a href="https://wa.me/628587888289?text=Halo,%20bisa%20minta%20brosur%20dan%20hitung%20kredit%20New Carry Pickup?" target="_blank" class="block w-full border border-slate-300 hover:bg-slate-50 text-slate-700 font-semibold py-2 px-4 rounded-xl text-sm transition">
+                        Cek Brosur / Kontak Sales
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REVISI 2: TESTIMONI 10 FOTO DENGAN EFEK SLIDER (SWIPEABLE) TANPA TEKS -->
+    <section id="testimoni" class="bg-slate-100 py-16 overflow-hidden">
+        <div class="text-center mb-8">
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-2">DOKUMENTASI SERAH TERIMA UNIT TEAM REFORMA</h2>
+            <p class="text-gray-500 text-sm">Geser untuk melihat kebahagiaan konsumen kami</p>
+            <div class="h-1 w-20 bg-suzuki-blue mx-auto rounded mt-2"></div>
+        </div>
+
+        <!-- Slider Wrapper -->
+        <div class="container mx-auto px-4">
+            <div class="flex gap-6 overflow-x-auto py-4 px-2 snap-x snap-mandatory no-scrollbar">
+                
+                <!-- Foto 1 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://mimin.suzuki-bogor.my.id/wp-content/uploads/elementor/thumbs/ecc28a62-d3c7-4e9c-be3b-1b1715f67fba-r85b9vule6eyl3xvvs5c544m3piim6nnv3xtdo8q74.jpeg" alt="Dokumentasi 1" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 2 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://mimin.suzuki-bogor.my.id/wp-content/uploads/elementor/thumbs/2f9fd663-395d-4060-830c-448b7dfdef5e-r85b9r5eg08iz24pn847anbb4s5ojp506godzafp28.jpeg" alt="Dokumentasi 2" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 3 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://suzuki-bogor.my.id/wp-content/uploads/2022/05/sre35-suzuki-14.jpg-6-300x300.jpg" alt="Dokumentasi 3" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 4 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://suzuki-bogor.my.id/wp-content/uploads/2022/05/sre35-suzuki-14-300x300.jpg" alt="Dokumentasi 4" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 5 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://wiji2.suzuki-bogor.my.id/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-02-at-19.01.06_2ef37524-225x300.jpg" alt="Dokumentasi 5" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 6 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://wiji2.suzuki-bogor.my.id/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-02-at-19.01.06_1ab6fbe1-225x300.jpg" alt="Dokumentasi 6" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 7 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://wiji2.suzuki-bogor.my.id/wp-content/uploads/2025/06/WhatsApp-Image-2025-06-02-at-19.01.06_ab182707-225x300.jpg" alt="Dokumentasi 7" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 8 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://indra.suzuki-bogor.my.id/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-06-02-at-19.01.04_e6f78a9d-r6q1c5t7qea0jhojyaljjzafg1ghfwzczptxu1u940.jpg" alt="Dokumentasi 8" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 9 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://indra.suzuki-bogor.my.id/wp-content/uploads/elementor/thumbs/ibu-fitriati-rbhm6a7ghcqhf2hdz9v6gnwfbf591n2mtu25q1dhgg.jpg" alt="Dokumentasi 9" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+                <!-- Foto 10 -->
+                <div class="snap-center shrink-0 w-72 sm:w-80 rounded-2xl overflow-hidden shadow-md border border-gray-100 aspect-4/3 bg-white">
+                    <img src="https://indra.suzuki-bogor.my.id/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2025-06-02-at-19.01.04_5e4f2b39-r6q1c140s83kxfvdpqkepih4h43ndfgpb2kifo17z4.jpg" alt="Dokumentasi 10" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. LOKASI SHOWROOM (MAPS) & SOSMED -->
+    <section id="lokasi" class="bg-slate-900 text-white py-16">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <span class="text-xs font-bold text-red-500 tracking-widest uppercase">Lokasi Showroom</span>
+                    <h2 class="text-3xl font-black mt-1 mb-4">KUNJUNGI KAMI</h2>
+                    <p class="text-gray-400 mb-6 leading-relaxed">Silahkan datang langsung ke dealer resmi kami untuk melakukan test drive dan negosiasi unit secara langsung sampai deal di tempat.</p>
+                    
+                    <div class="space-y-4 text-sm text-gray-300 mb-8">
+                        <p class="flex items-start gap-3"><i class="fas fa-map-marker-alt text-red-500 mt-1 text-base"></i> PT. Duta Cendana Adimandiri Jl. Raya Ciawi Prapatan No.Km.8, RT.02 RW.04, Sindangsari, Kec. Bogor Timur, Kota Bogor, Jawa Barat 16146</p>
+                        <p class="flex items-center gap-3"><i class="fas fa-envelope text-red-500 text-base"></i> suzuki.reforma@gmail.com</p>
+                    </div>
+
+                    <!-- REVISI 3: DITAMBAHKAN ICON FACEBOOK -->
+                    <div class="border-t border-slate-800 pt-6">
+                        <p class="text-xs text-gray-500 uppercase tracking-widest font-bold mb-3">Ikuti Sosial Media Kami</p>
+                        <div class="flex gap-4">
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/DutaCendana" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-blue-600 text-white flex items-center justify-center text-lg shadow-md transition transform hover:-translate-y-1" title="Facebook Resmi">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/suzukidutacendana" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-500 via-red-500 to-purple-600 text-white flex items-center justify-center text-lg shadow-md transition transform hover:-translate-y-1" title="Instagram Resmi">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <!-- TikTok -->
+                            <a href="https://www.tiktok.com/@mimin_dca_jabodetabek?_r=1&_t=ZS-98bRzzC7deS" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center text-lg shadow-md transition transform hover:-translate-y-1 border border-zinc-800" title="TikTok Resmi">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <!-- YouTube -->
+                            <a href="https://www.youtube.com/c/suzukidutacendana" target="_blank" rel="noopener" class="w-10 h-10 rounded-full bg-red-600 text-white flex items-center justify-center text-lg shadow-md transition transform hover:-translate-y-1" title="YouTube Resmi">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              
+  <div class="w-full h-80 rounded-2xl overflow-hidden shadow-2xl bg-slate-800 border border-slate-700">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.9153616875005!2d106.83933507475454!3d-6.646749993347887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89550968751%3A0x768632b5b6076df0!2sSuzuki%20Ciawi%20Bogor%20Duta%20Cendana%20Adimandiri!5e1!3m2!1sen!2sid!4v1783609163471!5m2!1sen!2sid" 
+        class="w-full h-full border-0" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 text-gray-500 text-xs py-6 text-center border-t border-slate-900">
+        <p>&copy; 2026 Suzuki Bogor Reforma. All rights reserved. Made for professional sales page.</p>
+    </footer>
+
+    <!-- STICKY FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/628587888289?text=Halo%20Suzuki%20Bogor,%20saya%20mau%20tanya%20promo%20terbaru" target="_blank" class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl z-50 transition transform hover:scale-110" title="Hubungi Kami Via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
